@@ -1,0 +1,17 @@
+# ============================================
+# OFFENSIVE-EXTRACTOR v1.0
+# ============================================
+
+# HTTP
+requests>=2.31.0
+urllib3>=2.1.0
+certifi>=2023.11.17
+
+# JWT (obligatoire pour Phase 4)
+PyJWT>=2.8.0
+
+# MongoDB (optionnel mais recommandé pour Phase 7)
+pymongo>=4.6.0
+
+# Outil externe (optionnel, pour dump .git)
+# git-dumper (via pip) : pip install git-dumper
